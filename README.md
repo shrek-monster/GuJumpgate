@@ -68,11 +68,12 @@
 
 在代理工具中配置注册、登录、PayPal 和 Stripe 的分流规则。
 
-你可以使用 Mihomo 等支持分流的代理工具，有什么、会什么就用什么。(推荐、方便)
+你可以使用 Mihomo 等支持分流的代理工具，有什么、会什么就用什么。
 
-如果你使用的代理工具是mihomo(clash)，你可以将Releases中的”mihomo-yaml-prompt.md“发给电脑上的claude code、codex、opencode等工具，让AI直接帮你修改分流配置。
+如果你使用的代理工具是mihomo(clash)，你可以将Releases中的”mihomo-yaml-prompt.md“发给电脑上的claude code、codex、opencode等工具，让AI直接帮你修改分流配置。(推荐、方便)
 
-以下演示使用的代理工具是 [ZeroOmega](https://chromewebstore.google.com/detail/pfnededegaaopdmhkdmcofjmoldfiped?utm_source=item-share-cb)，
+
+以下演示使用的代理工具是 [ZeroOmega](https://chromewebstore.google.com/detail/pfnededegaaopdmhkdmcofjmoldfiped?utm_source=item-share-cb)，(麻烦)
 
 ![配置代理分流规则](docs/images/github-readme-1779192674770.webp)
 
@@ -91,23 +92,26 @@
 
 ![代理直连与分流示例](docs/images/github-readme-1779192869062.webp)
 
-### 6. 启动 Hotmail Helper 
+### 6. 启动 Hotmail Helper (如果你使用的是Outlook/Hotmail邮箱)
 
 运行解压目录内的 `start-hotmail-helper.bat`。
 
 ![运行 start-hotmail-helper 脚本](docs/images/github-readme-1779193024860.webp)
 
-### 7. 打开无痕浏览器并切换代理
+### 7. 打开无痕浏览器并切换代理 (如果你已经用提示词配置好了mihomo，这里就不用再设置ZeroOmega了)
 
 启动无痕浏览器，ZeroOmega 选择 `auto switch`。(如果你已经用提示词配置好了mihomo，这里就不用再设置ZeroOmega了)
 
 ![在无痕窗口启用 Auto Switch](docs/images/github-readme-1779193731001.webp)
 
-### 8. 配置扩展参数
+### 8. 配置扩展参数 (选择导出至哪里)
 
-在扩展中打开侧边栏，配置 CPA、管理密钥、接码 API、PayPal 接码电话，并导入 Outlook 邮箱。
+![选择导出至本地 CPA JSON 无 RT](docs/images/github-readme-export-target-local-cpa-json-no-rt.png)
+目前只推荐这个导出方式，Oauth登录严重风控，几乎100%弹出验证手机号
 
-![配置扩展并导入 Outlook 邮箱](docs/images/github-readme-1779193665779.webp)
+![配置扩展参数字段](docs/images/github-readme-extension-config-fields.png)
+
+在扩展中打开侧边栏，配置 、接码 API、PayPal 接码电话，并导入 Outlook 邮箱。
 
 ### 9. 开始运行
 
